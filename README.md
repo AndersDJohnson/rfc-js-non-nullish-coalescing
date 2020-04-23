@@ -1,5 +1,5 @@
 # rfc-js-non-nullish-coalescing
-> A proposal a new JS operator to shorten ternary expressions for nullish values.
+> A proposal for a new JS operator to shorten ternary expressions for nullish values.
 
 We have the nullish coalescing operator as a shorthand ternary to default to some expression when a value is `undefined` or `null` ("nullish"):
 
