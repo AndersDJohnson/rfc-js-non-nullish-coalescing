@@ -39,6 +39,8 @@ A new non-nullish coalescing operator (`!?` or perhaps `!??`) to guard such call
 const a = b !? helper(b);
 ```
 
+Now `helper(b)` is only called if `b` is non-nullish, otherwise the value of the expression is just `b` (`null` or `undefined`).
+
 ```js
 const a = compute(b) !? helper(compute(b));
 ```
