@@ -41,6 +41,8 @@ const a = b !? helper(b);
 
 Now `helper(b)` is only called if `b` is non-nullish, otherwise the value of the expression is just `b` (`null` or `undefined`).
 
+It also works for complex expressions:
+
 ```js
 const a = compute(b) !? helper(compute(b));
 ```
