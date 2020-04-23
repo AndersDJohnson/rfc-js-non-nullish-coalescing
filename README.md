@@ -7,7 +7,7 @@ We have the nullish coalescing operator as a shorthand ternary to default to som
 const a = b ?? c;
 ```
 
-But sometimes we want to use a value only if it's not nullish, otherwise we prefer not to use it.
+But sometimes we want to use a value only if it's ***not*** nullish, otherwise we prefer not to use it.
 
 Today we can use verbose ternaries:
 
