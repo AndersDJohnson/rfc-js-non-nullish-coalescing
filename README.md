@@ -1,7 +1,7 @@
 # rfc-js-non-nullish-coalescing
 > A proposal for a new JS operator to guard non-nullish values.
 
-We have the nullish coalescing operator as a shorthand ternary to default to some expression when a value is `undefined` or `null` ("nullish"):
+So now we have the nullish coalescing operator as a shorthand ternary to default to some expression when a value is `undefined` or `null` ("nullish"):
 
 ```js
 const a = b ?? c;
