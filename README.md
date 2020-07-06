@@ -10,6 +10,9 @@ const a = b ?? c;
 ## Problem
 
 Sometimes we want to use a value only if it's ***not*** nullish, otherwise we prefer not to use it.
+
+We have the logical assignment proposal but that doesn't work as an expression. https://github.com/tc39/proposal-logical-assignment
+
 Say we want to call `helper(b)` (which may require a non-nullish argument in TypeScript) only if `b` is non-nullish.
 
 Today we can use ternaries:
